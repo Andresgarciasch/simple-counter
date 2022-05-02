@@ -1,12 +1,83 @@
+body{
+    background-color: grey;
+}
+.counter{
+    margin-top: 30px;
+    width: 100%;
+    height: 160px;
+    background: linear-gradient(rgb(226, 46, 14), rgb(248, 248,238 ), rgb(231, 235, 11)); 
+}
 
-/* 
+.innercounter{
+    display: flex;
+    margin: auto;
+    height: 160px;
+    width: 770px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.clock{
+background-color: rgb(226, 46, 14);
+height: 120px;
+width: 120px;
+position: relative;
+top: 20px;
+border-radius: 10px;
+font-size: 100px;
+}
 
-*/
+.five{
+    background-color: rgb(255, 69, 32);
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.four{
+    background-color: rgb(255, 102, 72);
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 100px;
+    text-align: center;
+}
+.three{
+    background-color:  rgb(244, 247, 114);
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 100px;
+    text-align: center;
+}
+.two{
+    background-color: rgb(230, 233, 78);
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 100px;
+    text-align: center ;
+}
+.one{
+    background-color: rgb(231, 235, 11);
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 100px;
+    text-align: center;
+}
