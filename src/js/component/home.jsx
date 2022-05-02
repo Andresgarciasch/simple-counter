@@ -1,5 +1,5 @@
 import React from "react";
-import { fontawesome } from "@fortawesome/react-fontawesome";
+// import { fontawesome } from "@fortawesome/react-fontawesome";
 
 //create your first component
 const Home = () => {
@@ -7,9 +7,7 @@ const Home = () => {
 		<>
 			<div className="counter">
 				<div className="innercounter">
-					<div className="clock">
-						<FontAwesomeIcon icon="faRegular faClock" />
-					</div>
+					<div className="clock"></div>
 					<div className="five">0</div>
 					<div className="four">0</div>
 					<div className="three">0</div>
