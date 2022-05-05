@@ -1,5 +1,6 @@
 body{
     background-color: grey;
+    color: black;
 }
 .counter{
     margin-top: 30px;
@@ -12,7 +13,7 @@ body{
     display: flex;
     margin: auto;
     height: 160px;
-    width: 770px;
+    width: 770px; 
 }
 
 .clock{
